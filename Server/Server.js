@@ -20,17 +20,71 @@ var poolConfig = {
 };
 
 var connectionConfig = {  
-        userName: 'STEIApp',  
-        password: 'Maity@123',  
-        server: 'M3053325',
+        /* userName: 'STEIApp',  
+        password: 'Maity@1234',  
+        server: 'M2317207',
         database: 'STEITool',
-        port: '61427',
+        port: '61490',
         dialect: "mssql",
         dialectOptions: {
-        instanceName: "SQL2014"
-        }
+        instanceName: "JCISQLDATA" */
+
+/* 	Visahl Azure login	   */
+		/* userName: 'jcihtmltool',  
+        password: 'T02FSxxXXc27Ck',  
+        server: 'htmltool-sql.database.windows.net',
+        database: 'htmltool-db',
+        port: '1433',
+        dialect: "mssql",
+		//encrypt: true,
+        dialectOptions: {
+        instanceName: "htmltool-sql.database.windows.net"
+        },
+        
+        options: {encrypt: true, database: 'htmltool-db'}   */
+		
+		
+		/* Joshant free trial -azure account*/
+		
+		/* userName: 'joshantj',  
+        password: 'Josh@j143',  
+        server: 'stei-server.database.windows.net',
+        database: 'STEITool',
+        port: '1433',
+        dialect: "mssql",
+		dialectOptions: {
+        instanceName: "stei-server.database.windows.net"
+        },
+          
+        options: {encrypt: true, database: 'STEITool'} */ 
+		
+		/* Sheha free trial -azure account*/
+		
+		/* userName: 'joshantj',  
+        password: 'josh@j143',  
+        server: 'stei.database.windows.net',
+        database: 'STEITool',
+        port: '1433',
+        dialect: "mssql",
+		dialectOptions: {
+        instanceName: "stei.database.windows.net"
+        }, */
+		
+		/* Sumit free trial -azure account*/
+		
+		userName: 'STEIAdmin',  
+        password: 'stei@admin123',  
+        server: 'steiadmin.database.windows.net',
+        database: 'STEITool',
+        port: '1433',
+        dialect: "mssql",
+		//encrypt: true,
+        dialectOptions: {
+        instanceName: "steiadmin.database.windows.net"
+        },
         // If you are on Azure SQL Database, you need these next options.  
-       // options: {encrypt: false, database: 'AdventureWorks'}  
+        options: {encrypt: true, database: 'STEITool'}
+		
 };
 //create the pool
 var pool = new ConnectionPool(poolConfig, connectionConfig);

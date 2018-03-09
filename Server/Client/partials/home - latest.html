@@ -1,0 +1,222 @@
+
+<div class="main_wrapper">
+    <div class="jci_logo"><img src="images/jci_logo.png" alt="Johnson Controls" title="" /></div>
+    <img src="images/road_map.png" alt="Map" title="" class="map" />
+    <div class="welcome_text" data-toggle="modal" data-target="#myModal" ng-click="bindHtml(0)"> <img src="images/icon_01.png"><span>Welcome to Your Role</span> </div>
+    <!--<div ng-click="bindHtml(1)" class="how_to" data-toggle="modal" data-target="#myModal1"> <img src="images/icon_02.png" alt="Icon" title="" /> <span>How to <br />
+        Use Planner</span> </div>-->
+	<div class="how_to" data-toggle="modal" data-target="#myModal2"> <img src="images/icon_02.png" alt="Icon" title="" /> <span>How to <br />
+        Use Planner</span> </div>
+    <div class="manager_review"> <img src="images/icon_03.png" alt="Icon" title="" /> <span>Manager Review</span> </div>
+	<div class="pro_title">Systems Technician (ST) and Electrical Installer (EI) Employee Planner</div>
+	<div class="menuClick" ng-click="menuClick()"><img src="images/button_menu.png" alt="MenuBar" title="" /></div>
+	<div class="slideupMenu">
+		<ul>
+			<li><img src="images/button_profile.png" alt="User Profile" title="" />  {{userName}}</li>
+			<br /><br /><br /><br /><br />
+			<li id="logoutClick" ng-click="Logout()"><img src="images/button_logout.png" alt="Logout" title="" />Logout</li>
+		</ul>	
+	</div>
+    <div class="week_01">
+        <div class="week_01_icon" data-toggle="modal" data-target="#myModal" ng-click="bindHtml(2)"><img src="images/week_01.png" alt="Week 1" title="" /></div>
+        <div class="pos_01" id="w1_t_1"><a href="" class="circle" ng-class="modalObj.w2_a1 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Safety at Johnson Controls">1</a></div>		
+        <div class="pos_02" id="w1_t_2"><a href="" class="circle" ng-class="modalObj.w2_a2 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Discover Building Efficiency"  >2</a></div>
+        <div class="pos_03" id="w1_t_3"><a href="" class="circle" ng-class="modalObj.w2_a3 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Discover Systems Operations" >3</a></div>
+        <div class="pos_04" id="w1_t_4"><a href="" class="circle" ng-class="modalObj.w2_a4 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Getting Technical Assistance" >4</a></div>
+        <div class="pos_05" id="w1_t_5"><a href="" class="circle" ng-class="modalObj.w2_a5 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Team Meetings" >5</a></div>
+        <div class="pos_06" id="w1_t_6"><a href="" class="circle" ng-class="modalObj.w2_a6 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Acronyms" >6</a></div>
+        <div class="pos_07" id="w1_t_7"><a href="" class="circle" ng-class="modalObj.w2_a7 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Tools/Software Configuration" >7</a></div>
+        <div class="pos_08" id="w1_t_8"><a href="" class="circle" ng-class="modalObj.w2_a8 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Job Site Visit" >8</a></div>
+    </div>
+	
+    <div class="week_02">
+        <div class="week_02_icon" data-toggle="modal" data-target="#myModal" ng-click="bindHtml(3)"><img src="images/week_02.png" alt="Week 2" title="" /></div>
+        <div class="pos_09" id="w2_t_1"><a href="" class="circle" ng-class="modalObj.w3_a1 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Project Folder Manager (PFM)">1</a></div>
+        <div class="pos_10" id="w2_t_2"><a href="" class="circle" ng-class="modalObj.w3_a2 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="AIM Tools">2</a></div>
+        <div class="pos_11" id="w2_t_3"><a href="" class="circle" ng-class="modalObj.w3_a3 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Project Delivery Process Overview">3</a></div>
+        <div class="pos_12" id="w2_t_4"><a href="" class="circle" ng-class="modalObj.w3_a4 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="HVAC Basics">4</a></div>
+        <div class="pos_13" id="w2_t_5"><a href="" class="circle" ng-class="modalObj.w3_a5 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Job Site Visit">5</a></div>
+    </div>
+	
+    <div class="week_03">
+        <div class="week_03_icon" data-toggle="modal" data-target="#myModal" ng-click="bindHtml(4)"><img src="images/week_03.png" alt="Week 3" title="" /></div>
+        <div class="pos_14" id="w3_t_1"><a href="" class="circle" ng-class="modalObj.w4_a1 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Customer Communications">1</a></div>
+        <div class="pos_15" id="w3_t_2"><a href="" class="circle" ng-class="modalObj.w4_a2 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Written Communication">2</a></div>
+        <div class="pos_16" id="w3_t_3"><a href="" class="circle" ng-class="modalObj.w4_a3 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Job Site Visit">3</a></div>
+        <div class="pos_17" id="w3_t_4"><a href="" class="circle" ng-class="modalObj.w4_a4 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Factory Packaged Controls (FPC)">4</a></div>
+        <div class="pos_18" id="w3_t_5"><a href="" class="circle" ng-class="modalObj.w4_a5 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Sarbanes-Oxley Overview">5</a></div>
+        <div class="pos_19" id="w3_t_6"><a href="" class="circle" ng-class="modalObj.w4_a6 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Documentation Standards">6</a></div>
+        <div class="pos_20" id="w3_t_7"><a href="" class="circle" ng-class="modalObj.w4_a7 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Teaming with & Training your Subcontractor">7</a></div>
+        <div class="pos_21" id="w3_t_8"><a href="" class="circle" ng-class="modalObj.w4_a8 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Managing Your Subcontractors">8</a></div>
+        <div class="pos_22" id="w3_t_9"><a href="" class="circle" ng-class="modalObj.w4_a9 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Evaluating Your Subcontractors (OPTIONAL)">9</a></div>
+        <div class="pos_23" id="w3_t_10"><a href="" class="circle" ng-class="modalObj.w4_a10 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Job Site Inspection and Validation">10</a></div>
+        <div class="pos_24" id="w3_t_11" data-toggle="tooltip" title=""><a href="" class="circle" ng-class="modalObj.w4_a11 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Customer Virtual Job Site Visit ">11</a></div>
+    </div>
+	
+    <div class="week_04" id="week4">
+        <div class="week_04_icon" data-toggle="modal" data-target="#myModal" ng-click="bindHtml(5)" ng-disabled="isDisabled"><img src="images/week_04.png" alt="Week 4" title="" /></div>
+        <div class="pos_25" id="w4_t_1"><a href="" class="circle" ng-class="modalObj.w5_a1 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Managing Change Orders (Optional)">1</a></div>
+        <div class="pos_26" id="w4_t_2"><a href="" class="circle" ng-class="modalObj.w5_a2 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Network Commissioning  (Optional)">2</a></div>
+        <div class="pos_27" id="w4_t_3"><a href="" class="circle" ng-class="modalObj.w5_a3 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Testing & Balancing">3</a></div>
+        <div class="pos_28" id="w4_t_4"><a href="" class="circle" ng-class="modalObj.w5_a4 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Communications">4</a></div>
+        <div class="pos_29" id="w4_t_5"><a href="" class="circle" ng-class="modalObj.w5_a5 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Systems Job Site Safety">5</a></div>
+        <div class="pos_30" id="w4_t_6"><a href="" class="circle" ng-class="modalObj.w5_a6 ? 'green_circle' : 'white_circle'" data-toggle="tooltip" title="Customer Training & Acceptance (Optional)">6</a></div>
+    </div>
+</div>
+
+<!-- Edit Modal Starts  -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg"> 
+        <!-- Modal content-->
+        
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" id="editWeekHeader">{{modalObj.Title}}</h4>
+            </div>
+            <div class="modal-body"> 
+                <!--<p id="modalContent"></p>-->
+                <div class="panel panel-default">
+                    <div class="col-md-12 col-sm-12 col-xs-12" style="padding:20px;">
+                        <div class="col-md-2 col-sm-2 col-xs-2">
+                            <label>Progress :</label>
+                        </div>
+                        <div class="progress col-md-10 col-sm-10 col-xs-10">
+                            <div id="probar" class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ng-style="{'width':(modalObj.myStyle)}"> {{taskCompletionPercent}}% </div>
+                        </div>
+                    </div>
+                    <hr width="100%" />
+                    <form action="#" class="panel-body">
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <label> Assignment </label>
+                            <div class="form-group dropdown">
+
+
+                            <!-- New code -->
+                            
+                                 
+                                 <!-- New code End-->
+
+
+
+                                <select class="form-control dropdown" ng-model="modalObj.taskId" id="taskName" ng-change="loadSubTask()">
+                                    <option ng-repeat="option in modalObj.Assignment" ng-selected ="option.id == modalObj.taskId" ng-value="option.id">{{option.name}}</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+                            <label> Task List </label>
+                            <div class="form-group">
+                                <multiselect  name="subTaskMultiSelect" id="subTaskMultiSelect" ng-model="modalObj.selectionList" options="subTask" show-select-all="true" show-unselect-all="true"  id-prop="id" display-prop="name" placeholder="Choose Task From List"> </multiselect>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <label for="pwd">Estimation Time</label>
+                                <input type="text" ng-model="modalObj.E_Time" class="form-control" id="TimeToComplete" placeholder="Enter Time" name="pwd" disabled>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <label for="pwd">Actual Time</label>
+                                <input type="text" ng-model="modalObj.A_Time" class="form-control" id="TimeToComplete" placeholder="Enter Time" name="pwd">
+                            </div>
+                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                <label for="pwd">Completion Tracking</label>
+                                <input type="text" ng-model="modalObj.C_Tracking" class="form-control" id="CompletetionTime" placeholder="Completion time" name="pwd" disabled>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                <label for="pwd">Date Completed</label>
+								    <datepicker date-format="MM-dd-yyyy">
+								  <input type="text" ng-model="modalObj.Date_Completion" class="form-control" id="dateCompleted" placeholder="dd-mm-yy" name="pwd">
+									</datepicker>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label for="pwd">Notes</label>
+                                <textarea ng-model="modalObj.Notes" class="form-control" rows="5" id="note"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <center>
+                            <button type="button" class="btn btn-info btn-md" ng-click="getUpdatedAssignment()">Save</button>
+                            <button type="button" id="popupsubmit" class="btn btn-success btn-md" ng-click="saveDetails()">Submit</button>
+							</center>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Edit Modal End --> 
+    </div>
+</div>
+
+<!-- Modal How to use planner -->
+<div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog"> 
+        
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">{{modalObj.Title}}</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                   
+                    <ul style="position: relative;left: 6%;">
+                        <li>{{modalObj.intro1}}</li><br>
+                        <li>{{modalObj.intro2}}</li><br>
+                        <li>{{modalObj.intro3}}</li><br>
+
+                    </ul>
+                    
+                    <blockquote><p>{{modalObj.intro4}}</p></blockquote>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel1">How to Use Planner</h4>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-sm-12">
+						<label>1. Review the assignment list with your manager and buddy to determine which assignments you should complete and in what order.</label>
+						<ul>
+							<li>Based on your prior experience, your manager may decide that you do not need to complete some of the assignments listed. Be sure to look at each assignment when making this decision to avoid missing key information about your new role.</li>
+							<li>The recommended order of completion is provided in this document and through the order of the Onboarding program.</li>
+							<li>Document the decisions in this document –the ST and EI Planner. Add more entries as needed.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row mt15">
+					<div class="col-sm-7">
+						<label>2. Periodically review and discuss your progress with your manager.</label>
+						<ul>
+							<li>As you complete each time segment (Week 1, Week 2 etc.), report your completion in the Learning Management System by following the instructions provided in the Onboarding site.</li>
+						</ul>
+						<label class="mt15">3. When you have completed all of the determined assignments,you and your manager should sign this Planner and place it into your development file.</label>
+					</div>
+					<div class="col-sm-5"><img src="../images/how_to_use.png" alt="How to Use" /></div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>

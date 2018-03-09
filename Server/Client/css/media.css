@@ -1,0 +1,702 @@
+
+@media (max-device-width: 767px) {
+}
+
+/* ----------- iPhone 6 ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) /*and (-webkit-min-device-pixel-ratio: 2)*/ and (orientation: portrait) {
+.main_wrapper {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.jci_logo {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.jci_logo img {
+    max-width: 90px;
+}
+.welcome_text {
+    top: 582px;
+    right: 30px;
+}
+.welcome_text img {
+    vertical-align: bottom;
+    max-width: 28px;
+}
+.welcome_text span {
+    line-height: 10px;
+    font-size: 10px;
+    width: 70px;
+}
+.how_to {
+    top: 516px;
+    right: 5px;
+    text-align: center;
+}
+.how_to img {
+    max-width: 40px;
+}
+.how_to span {
+    line-height: 10px;
+    font-size: 10px;
+    margin-top: -5px;
+}
+.manager_review {
+    position: absolute;
+    top: 127px;
+    left: 35px;
+}
+.manager_review img {
+    vertical-align: bottom;
+    max-width: 28px;
+}
+.manager_review span {
+    display: inline-block;
+    color: #fff;
+    line-height: 10px;
+    font-size: 10px;
+    max-width: 50px;
+}
+.circle {
+    width: 14px;
+    height: 14px;
+}
+.week_01_icon {
+    top: 519px;
+    right: 75px;
+}
+.week_01_icon img {
+    max-width: 40px;
+}
+.pos_01 {
+    top: 559px;
+    right: 88px;
+}
+.pos_02 {
+    top: 559px;
+    right: 120px;
+}
+.pos_03 {
+    top: 559px;
+    right: 158px;
+}
+.pos_04 {
+    top: 559px;
+    right: 195px;
+}
+.pos_05 {
+    top: 559px;
+    right: 235px;
+}
+.pos_06 {
+    top: 559px;
+    left: 90px;
+}
+.pos_07 {
+    top: 559px;
+    left: 55px;
+}
+.pos_08 {
+    top: 530px;
+    left: 32px;
+}
+.week_02_icon {
+    top: 435px;
+    left: 19px;
+}
+.week_02_icon img {
+    max-width: 40px;
+}
+.pos_09 {
+    top: 475px;
+    left: 32px;
+}
+.pos_10 {
+    top: 459px;
+    left: 105px;
+}
+.pos_11 {
+    top: 459px;
+    left: 185px;
+}
+.pos_12 {
+    top: 459px;
+    left: 275px;
+}
+.pos_13 {
+    top: 407px;
+    right: 55px;
+}
+.week_03_icon {
+    top: 308px;
+    right: 42px;
+}
+.week_03_icon img {
+    max-width: 40px;
+}
+.pos_14 {
+    top: 347px;
+    right: 55px;
+}
+.pos_15 {
+    top: 331px;
+    right: 110px;
+}
+.pos_16 {
+    top: 331px;
+    right: 170px;
+}
+.pos_17 {
+    top: 331px;
+    left: 130px;
+}
+.pos_18 {
+    top: 331px;
+    left: 70px;
+}
+.pos_19 {
+    top: 280px;
+    left: 51px;
+}
+.pos_20 {
+    top: 230px;
+    left: 80px;
+}
+.pos_21 {
+    top: 230px;
+    left: 150px;
+}
+.pos_22 {
+    top: 230px;
+    left: 220px;
+}
+.pos_23 {
+    top: 230px;
+    right: 70px;
+}
+.pos_24 {
+    top: 185px;
+    right: 32px;
+}
+.week_04_icon {
+    top: 95px;
+    right: 19px;
+}
+.week_04_icon img {
+    max-width: 40px;
+}
+.pos_25 {
+    top: 135px;
+    right: 32px;
+}
+.pos_26 {
+    top: 104px;
+    right: 69px;
+}
+.pos_27 {
+    top: 104px;
+    right: 117px;
+}
+.pos_28 {
+    top: 104px;
+    right: 160px;
+}
+.pos_29 {
+    top: 104px;
+    left: 150px;
+}
+.pos_30 {
+    top: 104px;
+    left: 100px;
+}
+}
+
+/* ----------- iPhone 6+ ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px)  /*and (-webkit-min-device-pixel-ratio: 3)*/  and (orientation: portrait) {
+.welcome_text {
+    right: 49px;
+}
+.how_to {
+    right: 23px;
+}
+.manager_review {
+    left: 55px;
+}
+.pos_01 {
+    right: 107px;
+}
+.pos_02 {
+    right: 140px;
+}
+.pos_03 {
+    right: 178px;
+}
+.pos_04 {
+    right: 215px;
+}
+.pos_05 {
+    right: 255px;
+}
+.pos_06 {
+    left: 110px;
+}
+.pos_07 {
+    left: 75px;
+}
+.pos_08 {
+    left: 52px;
+}
+.week_02_icon {
+    left: 39px;
+}
+.pos_09 {
+    left: 52px;
+}
+.pos_10 {
+    left: 125px;
+}
+.pos_11 {
+    left: 205px;
+}
+.pos_12 {
+    left: 295px;
+}
+.pos_13 {
+    right: 74px;
+}
+.week_03_icon {
+    right: 61px;
+}
+.pos_14 {
+    right: 74px;
+}
+.pos_15 {
+    right: 130px;
+}
+.pos_16 {
+    right: 190px;
+}
+.pos_17 {
+    left: 150px;
+}
+.pos_18 {
+    left: 90px;
+}
+.pos_19 {
+    left: 71px;
+}
+.pos_20 {
+    left: 100px;
+}
+.pos_21 {
+    left: 170px;
+}
+.pos_22 {
+    top: 230px;
+    left: 240px;
+}
+.pos_23 {
+    right: 90px;
+}
+.pos_24 {
+    right: 51px;
+}
+.week_04_icon {
+    top: 95px;
+    right: 38px;
+}
+.pos_25 {
+    right: 51px;
+}
+.pos_26 {
+    right: 88px;
+}
+.pos_27 {
+    right: 136px;
+}
+.pos_28 {
+    right: 180px;
+}
+.pos_29 {
+    left: 169px;
+}
+.pos_30 {
+    left: 119px;
+}
+}
+
+/*14 inch laptop*/
+@media screen and (device-width: 1366px) and (device-height: 768px) and (min-resolution: 96dpi) {
+.main_wrapper {
+    max-width: 1058px
+}
+.jci_logo img {
+    max-width: 100px;
+}
+.map_outer {
+    text-align: center;
+    height: 100%;
+}
+.map_outer img {
+    max-height: 645px;
+}
+.welcome_text {
+    top: 595px;
+    right: 120px;
+}
+.welcome_text img {
+    max-width: 30px;
+}
+.welcome_text span {
+    font-size: 12px;
+}
+.how_to {
+    top: 473px;
+    right: 15px;
+}
+.how_to span {
+    font-size: 12px;
+}
+.manager_review {
+    top: 115px;
+    left: 50px;
+}
+.manager_review img {
+    max-width: 30px;
+}
+.manager_review span {
+    font-size: 12px;
+}
+.pos_01 {
+    top: 559px;
+    right: 130px;
+}
+.week_01_icon {
+    top: 481px;
+    right: 102px;
+}
+.pos_02 {
+    top: 559px;
+    right: 255px;
+}
+.pos_03 {
+    top: 559px;
+    right: 400px;
+}
+.pos_04 {
+    top: 559px;
+    right: 525px;
+}
+.pos_05 {
+    top: 559px;
+    right: 660px;
+}
+.pos_06 {
+    top: 559px;
+    left: 245px;
+}
+.pos_07 {
+    top: 559px;
+    left: 120px;
+}
+.pos_08 {
+    top: 498px;
+    left: 74px;
+}
+.week_02_icon {
+    top: 365px;
+    left: 62px;
+}
+.pos_09 {
+    top: 439px;
+    left: 90px;
+}
+.pos_10 {
+    top: 439px;
+    left: 350px;
+}
+.pos_11 {
+    top: 439px;
+    left: 545px;
+}
+.pos_12 {
+    top: 439px;
+    right: 250px;
+}
+.pos_13 {
+    top: 375px;
+    right: 144px;
+}
+.week_03_icon {
+    top: 243px;
+    right: 137px;
+}
+.pos_14 {
+    top: 317px;
+    right: 165px;
+}
+.pos_15 {
+    top: 317px;
+    right: 320px;
+}
+.pos_16 {
+    top: 317px;
+    right: 490px;
+}
+.pos_17 {
+    top: 317px;
+    left: 395px;
+}
+.pos_18 {
+    top: 317px;
+    left: 233px;
+}
+.pos_19 {
+    top: 250px;
+    left: 122px;
+}
+.pos_20 {
+    top: 197px;
+    left: 215px;
+}
+.pos_21 {
+    top: 197px;
+    left: 410px;
+}
+.pos_22 {
+    top: 197px;
+    left: 615px;
+}
+.pos_23 {
+    top: 197px;
+    right: 230px;
+}
+.pos_24 {
+    top: 155px;
+    right: 91px;
+}
+.week_04_icon {
+    top: 33px;
+    right: 63px;
+}
+.pos_25 {
+    top: 108px;
+    right: 91px;
+}
+.pos_26 {
+    top: 79px;
+    right: 195px;
+}
+.pos_27 {
+    top: 79px;
+    right: 360px;
+}
+.pos_28 {
+    top: 79px;
+    right: 490px;
+}
+.pos_29 {
+    top: 79px;
+    left: 360px;
+}
+.pos_30 {
+    top: 79px;
+    left: 195px;
+}
+}
+
+/* ----------- iPad ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)  /*and (-webkit-min-device-pixel-ratio: 1)*/ {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)  /*and (-webkit-min-device-pixel-ratio: 1)*/ {
+.jci_logo {
+    max-width: 90px;
+}
+.modal-dialog {
+    width: auto;
+}
+.how_to {
+    top: 451px;
+    right: 10px;
+}
+.how_to span {
+    font-size: 13px;
+}
+.welcome_text {
+    top: 576px;
+    right: 117px;
+}
+.welcome_text img {
+    max-width: 32px;
+}
+.welcome_text span {
+    font-size: 13px;
+}
+.week_01_icon {
+    top: 479px;
+    right: 115px;
+}
+.week_01_icon img {
+    max-width: 60px;
+}
+.pos_01 {
+    top: 540px;
+    right: 135px;
+}
+.pos_02 {
+    top: 540px;
+    right: 260px;
+}
+.pos_03 {
+    top: 540px;
+    right: 385px;
+}
+.pos_04 {
+    top: 540px;
+    right: 510px;
+}
+.pos_05 {
+    top: 540px;
+    right: 640px;
+}
+.pos_06 {
+    top: 540px;
+    left: 240px;
+}
+.pos_07 {
+    top: 540px;
+    left: 110px;
+}
+.pos_08 {
+    top: 483px;
+    left: 71px;
+}
+.week_02_icon {
+    top: 362px;
+    left: 65px;
+}
+.week_02_icon img {
+    max-width: 60px;
+}
+.pos_09 {
+    top: 424px;
+    left: 86px;
+}
+.pos_10 {
+    top: 424px;
+    left: 330px;
+}
+.pos_11 {
+    top: 424px;
+    left: 530px;
+}
+.pos_12 {
+    top: 424px;
+    right: 250px;
+}
+.pos_13 {
+    top: 364px;
+    right: 140px;
+}
+.week_03_icon {
+    top: 247px;
+    right: 141px;
+}
+.week_03_icon img {
+    max-width: 60px;
+}
+.pos_14 {
+    top: 306px;
+    right: 161px;
+}
+.pos_15 {
+    top: 306px;
+    right: 300px;
+}
+.pos_16 {
+    top: 306px;
+	right: 470px;
+}
+.pos_17 {
+    top: 306px;
+	left: 380px;
+}
+.pos_18 {
+    top: 306px;
+	left: 220px;
+}
+.pos_19 {
+    top: 245px;
+    left: 117px;
+}
+.pos_20 {
+    top: 190px;
+    left: 205px;
+}
+.pos_21 {
+    top: 190px;
+	left: 400px;
+}
+.pos_22 {
+    top: 190px;
+	left: 595px;
+}
+.pos_23 {
+    top: 190px;
+	right: 235px;
+}
+.pos_24 {
+    top: 156px;
+    right: 88px;
+}
+.pos_25 {
+    top: 105px;
+    right: 88px;
+}
+.week_04_icon {
+	top: 42px;
+    right: 67px;
+}
+.week_04_icon img {
+    max-width: 60px;
+}
+.pos_26 {
+    top: 76px;
+    right: 185px;
+}
+.pos_27 {
+    top: 76px;
+	right: 345px;
+}
+.pos_28 {
+    top: 76px;
+	right: 505px;
+}
+.pos_29 {
+    top: 76px;
+	left: 345px;
+}
+.pos_30 {
+    top: 76px;
+	left: 190px;
+}
+}
+
+@media screen and (min-device-width: 1920px) {
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width : 1920px) {
+}
+
+/* saf3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+}

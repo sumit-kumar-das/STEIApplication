@@ -1,0 +1,48 @@
+<div class="main_wrapper">
+	<div class="jci_logo"><img src="images/jci_logo.png" alt="Johnson Controls" title="" /></div>
+	<div class="login_Title">
+			<p>Systems Technician (ST) and Electrical Installer (EI)<br> Employee Planner</p>
+	</div>
+	<div class="login_outer">
+		
+		<form>
+		<div class="panel panel-default">
+		  <div class="panel-heading panelHead">Login
+		  	
+		  </div>
+		  <div class="panel-body">
+
+			<div class="form-group">
+				<label for="email">Global ID:</label>
+				<input type="text" ng-model="auth.userName" class="form-control" id="email" placeholder="Enter Gloabl ID">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Password:</label>
+				<input type="password" ng-model="auth.password" class="form-control" id="pwd" placeholder="Enter Password">
+			</div>
+			<div>
+		  	<label>Login as: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+		  		<label class="radio-inline">
+		    	
+			  <input type="radio" ng-model="loginAS" name="loginAs" value="employee" 
+			  ng-click="ShowManagerFun()">Employee
+			</label>
+			<label class="radio-inline">
+			  <input type="radio" ng-model="loginAS" name="loginAs" value="manager" ng-click="ShowManagerFun1()">Manager
+			</label>
+		  	<div id="ForEmp" ng-show="ShowManager"><label>Select Manager:</label>
+			 <select class="form-control" id="sel1">
+					<option>Manager1</option>
+					<option>Manager2</option>
+					<option>Manager3</option>
+					<option>Manager4</option>
+				  </select></div>
+		  </div><br />
+			<center><button type="submit" class="btn btn-default" ng-click="authenticateUser()">Submit</button></center>
+		
+		  </div>
+		</div>
+		</form>
+	</div>
+</div>
+

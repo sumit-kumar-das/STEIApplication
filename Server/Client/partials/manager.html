@@ -1,0 +1,39 @@
+<div class="main_wrapper">
+	<div class="jci_logo"><img src="images/jci_logo.png" alt="Johnson Controls" title="" /></div>
+	<div class="main_heading main_Title">
+		<h1>Systems Technician (ST) and Electrical Installer (EI) Employee Planner</h1>
+	</div>
+	<div class="status_content">
+		<div class="status_heading">
+			<h2>Manager Dashboard</h2>
+			<h3>Manager: {{userName}}</h3>
+		</div>
+		<div class="current_status_outer">
+			<div class="current_status_heading">
+				<h2>Dashboard</h2>
+			</div>
+			<div class="current_status_content">
+			<!--<button id='toggleFiltering' ng-click="toggleFiltering()" class="btn btn-success">Use Filters</button>-->
+			<br/><br/>
+			<div id="Mygrid" external-scopes="clickHandler" ui-grid="gridOptions" ui-grid-pagination>
+				<div class="watermark" ng-If="!myData.length">No data available</div>
+			</div>
+		    </div>
+			</div>
+		</div>
+		<div class="slideupMenu">
+        <ul>
+            <li><img src="images/button_profile.png" alt="User Profile" title="" /> {{userName}}</li>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <li id="logoutClick" ng-click="Logout()"><img src="images/button_logout.png" alt="Logout" title="" />Logout</li>
+        </ul>
+    </div>
+		<div class="menuClick" ng-click="menuClick()"><img src="images/button_menu.png" alt="MenuBar" title="" /></div>
+	</div>
+	 
+	
+</div>

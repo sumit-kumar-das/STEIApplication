@@ -1,0 +1,84 @@
+<div class="main_wrapper">
+	<div ng-If="loader" class="loader"></div>
+	<div class="jci_logo"><img src="images/jci_logo.png" alt="Johnson Controls" title="" /></div>
+	<div class="main_heading main_Title">
+		<h1>Systems Technician (ST) and Electrical Installer (EI) Employee Planner</h1>
+	</div>
+	<div class="status_content">
+		<div class="status_heading">
+			<h2>Manager Dashboard</h2>
+			<h3>Manager: {{ManagerBasicInfo.Name}}</h3>
+		</div>
+		<div class="current_status_outer">
+			<div class="current_status_heading">
+				<h4><a class="mgrDashboardLink" href="/#/manager">Dashboard </a> | {{UserBasicInfo.Name}} | Week {{param2}}<a></h4>
+			</div>
+			<div class="current_status_content">
+			<br/><br/>
+			<div id="viewWeekTable">
+				  <table class="table table-striped table-bordered">
+				    <thead>
+				      <tr>	
+				        <th>Sr No.</th>
+				        <th>Task Name</th>
+				        <th>Estimated Time</th>
+				        <th>Actual Time</th>
+				        <th>Completion Date</th>
+				        <th>Comments</th>
+				        <th>Current Status</th>
+				        <th>Actions</th>
+				      </tr>
+				    </thead>
+				    <tbody>
+				    	<tr ng-repeat="rec in TableData">
+				    		<td align="center">{{rec.SrNo}}</td>
+				    		<td align="left">{{rec.name}}</td>
+				    		<td align="center">{{rec.Estimation}}</td>
+				    		<td align="center">{{rec.ActualTime}}</td>
+				    		<td align="center">{{rec.CompletionDate}}</td>
+				    		<td align="center">
+				    			<div style="color:#428bca;cursor:pointer;" ng-click="showDescription(rec.Descriptions)" data-toggle="tooltip" title="{{rec.Descriptions}}" ng-class="label"><span class="">View</span></div>
+				    		</td>
+				    		<td align="center">
+				    			<label class="label" 
+				    			ng-class="rec.IsApproved == true ? 'label-success disabled' : rec.IsApproved == false ? 'label-danger disabled' : 'label-info' " title="Current Status">
+				    				<span ng-If="rec.IsApproved == true">Approved</span>
+				    				<span ng-If="rec.IsApproved == false">Rejected</span>
+				    				<span ng-If="rec.IsApproved == -1">Submitted</span></label>
+				    		</td>
+				    		<td align="center">
+				    			<a class="btn btn-sm" 
+				    			ng-class="rec.IsApproved == true ? 'btn-success disabled' : rec.IsApproved == false ? 'btn-success disabled' : 'btn-success' " title="Approve" ng-click="approveThis(rec)">
+				    				<!--<span ng-If="rec.IsApproved == true">Approved</span>-->
+				    				<!--<span ng-If="rec.IsApproved == -1 || rec.IsApproved == false">Approve</span></a>-->
+				    				<span>Approve</span></a>
+
+				    			<a class="btn btn-sm" ng-class="rec.IsApproved == false ? 'btn-danger disabled' : rec.IsApproved == true ? 'btn-danger disabled' : 'btn-danger' " title="Reject" ng-click="rejectThis(rec)">
+				    				<!--<span ng-If="rec.IsApproved == false">Rejected</span>-->
+				    				<!--<span ng-If="rec.IsApproved == -1 || rec.IsApproved == true">Reject</span></a>-->
+				    				<span>Reject</span></a>
+				    				<!--<span class="glyphicon glyphicon-remove"></span></a>-->
+
+				    			<a class="btn btn-primary btn-sm" title="All Comments" ng-click="commentOnThis(rec)"><span class="glyphicon glyphicon-comment"></span></a>
+				    		</td>
+				    	</tr>
+				    </tbody>
+				</table>
+			</div>
+		    </div>
+			</div>
+		</div>
+	</div>
+	 <div class="menuClick" ng-click="menuClick()"><img src="images/button_menu.png" alt="MenuBar" title="" /></div>
+	<div class="slideupMenu">
+        <ul>
+            <li><img src="images/button_profile.png" alt="User Profile" title="" /> {{userName}}</li>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <li id="logoutClick" ng-click="Logout()"><img src="images/button_logout.png" alt="Logout" title="" />Logout</li>
+        </ul>
+    </div>
+</div>

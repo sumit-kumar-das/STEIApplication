@@ -1,0 +1,72 @@
+<html>
+<head>
+    <!-- Vendor: Bootstrap Stylesheets -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+    <style type="text/css">
+    .EmpMgrComments{
+        height: 530px;
+        overflow-x: auto;
+    }
+    </style>
+ </head>
+<body>
+
+<div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+                    <ul class="chat EmpMgrComments" ng-If="AllComments.length != 0">
+                        <div  ng-repeat="rows in AllComments">
+                        <li style="border: 1px #ccc solid;padding: 8px;position:relative;top:8px;" class="left clearfix"><span class="chat-img pull-left">
+                            
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <strong style="color:#428bca;" class="primary-font">{{rows.commentedBy}}</strong> <small class="pull-right text-muted">
+                                        <span class="glyphicon glyphicon-time"></span>{{rows.date | date : 'dd-MM-yyyy'}}</small>
+                                </div>
+                                <p>{{rows.commentText}}</p>
+                                <span class="pull-right" style="color:#4793d0;">Task {{rows.TaskId}}</span>
+                            </div>
+
+
+                        </li>
+                        <br>
+                    </div>
+                        <!--<li class="right clearfix"><span class="chat-img pull-right">
+                            
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <small class=" text-muted"><span class="glyphicon glyphicon-time"></span>13 mins ago</small>
+                                    <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare
+                                    dolor, quis ullamcorper ligula sodales.
+                                </p>
+                            </div>
+                        </li>-->
+                        
+                    </ul>
+                    <center><div ng-If="AllComments.length == 0" style="color:#865656;">No Comments Available<br><br></div></center>
+                    <br><br>
+                    <!--<div class="input-group">
+                        <textarea id="managerCommentBox"  name="managerCommentBox" cols="65" rows="4" placeholder="Comment Here..."></textarea>
+                        <span class="input-group-btn">
+                            
+                        </span>
+                    </div>-->
+                
+          
+        </div>
+    </div>
+</div>
+
+ 
+</div>
+
+</body>
+</html>

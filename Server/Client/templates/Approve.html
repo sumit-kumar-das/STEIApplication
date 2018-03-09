@@ -1,0 +1,41 @@
+<html>
+<head>
+      <!-- Vendor: Bootstrap Stylesheets -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Our Website CSS Styles -->
+
+ </head>
+<body>
+
+<div ng-controller="ManagerCtrl"> 
+<br />
+<form name="approvalForm">
+    <table class="table table-striped table-bordered">
+            <thead>
+              <tr>
+                <th style="width: 59px;">Sr No.</th>
+                <th>Subtask</th>
+                <th>Certificate</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="records in subTaskCertList">
+                <td align="center">{{ $index+1 }}</td>
+                <td align="left">{{ records.SubTaskName }}</td>
+                <td align="center">{{ records.Certificate }}</td>
+              <tr>
+              <tr ng-if="subTaskCertList.length == 0">
+                  <td align="center" colspan="3"> No Data Available </td>
+              </tr>
+            </tbody>
+      </table>
+      <label>Approval Comments <span style="color:red;">*</span></label>
+      <textarea  id="approvalComments" ng-model="approvalComments"  name="approvalComments" cols="76" rows="5" placeholder="Comment Here..." required></textarea>
+      <p class='text-danger'>{{approvalForm.approvalComments.$valid ? "" : "Please enter proper comment for approval"}}</p>
+</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,619 @@
+{
+	"How_to_Use": {
+		"intro1": "1.Review the assignment list with your manager and buddy to determine which assignments you should complete and in what order.",
+		"intro2": "2.Periodically review and discuss your progress with your manager. ",
+		"intro3": "3.When you have completed all of the determined assignments, you and your manager should sign this Planner and place it into your development file. ",
+		"intro4": "The next step of this Onboarding Program is the Systems Installation and Commissioning Fundamentals course. Refer to the “Next Steps” section on the Onboarding site for more information on this challenging in-person event."
+	},
+
+	"Welcome_Role": {
+		"Assignment": [{
+			"id": 1,
+			"name": "Welcome to Your ST or EI Role",
+			"E_Time": "3",
+			"A_Time": "3",
+			"TrackerName": "Manager Review",
+			"date": "10-2-05",
+			"Desc": "description here",
+			"subtask": {
+				"t_1": "Review the Welcome To document to learn more about your role.",
+				"t_2": "Meet with your manager to:<ul><li>Obtain a copy of your goals.</li><li>Discuss how your role impacts the branch, the team and your individual success.</li><li>Learn the organizational structure of your branch, region and country.</li></ul>"
+			}
+		}],
+		"assignStatus": [{
+			"t_1": 1,
+			"t_2": 1
+		}]
+	},
+	"week_1": {
+		"Assignment": [{
+				"id": 1,
+				"name": "Safety at Johnson Controls",
+				"E_Time": "2.5",
+				"A_Time": "2.5",
+				"TrackerName": "Manager Review & Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Confirm that you have the appropriate Safety Equipment, as listed on the New Employee Safety Orientation Checklist. ",
+					"t_2": "New Employee Safety Orientation Checklist",
+					"t_3": "Electrical Safety (C-8111-EN)",
+					"t_4": "New Employee Safety Training (C-8230-EN)",
+					"t_5": "Hazardous Materials Shipping (C-9902-EN)",
+					"t_6": "Participate in the monthly Toolbox Training, conducted in your branch."
+				}
+			},
+			{
+				"id": 2,
+				"name": "Discover Building Efficiency",
+				"E_Time": "1",
+				"A_Time": "1",
+				"TrackerName": "Manager Review & Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Watch the video found on the Onboarding page.",
+					"t_2": "New Employee Safety Orientation Checklist"
+				}
+			},
+			{
+				"id": 3,
+				"name": "Discover Systems Operations",
+				"E_Time": "3",
+				"A_Time": "3",
+				"TrackerName": "Manager Review",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "View the NA Systems Operations Overview presentation.",
+					"t_2": "Navigate the Systems Operations website to  <ul><li>Gain familiarity with the resources provided by each support group.</li><li>Identify the tools provided by each support group.</li></ul>",
+					"t_3": "Meet with your manager to discuss the following: <ul><li>Systems strategic plan and the impact on the branch and you. </li><li>The markets that are important to your branch.</li><li>Current news as it related to Systems.</li></ul>"
+				}
+			},
+			{
+				"id": 4,
+				"name": "Getting Technical Assistance",
+				"E_Time": "1",
+				"A_Time": "1",
+				"TrackerName": "Manager Review",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Read the Gaining Technical Assistance document.",
+					"t_2": "Gain access to the following email distribution lists:<ul><li>FYI from the FSC newsletter</li><li>Product Documentation updates </li><li>Flash Sheets </li><li>Engineering Forum </li><li>Solutions Database</li></ul>",
+					"t_3": "Contact your RFSM to gain access to the eRoom for your Region. Contact information is available under the Technical Support section. of the Systems Operations Support website."
+				}
+			},
+			{
+				"id": 5,
+				"name": "Team Meetings",
+				"E_Time": "3",
+				"A_Time": "3",
+				"TrackerName": "Manager Review",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Meet with your Manager to:<ul><li>Identify the schedule for each of the meetings listed above </li><li>Identify the branch technical lead who attends and conducts the SOTechT sessions.</li><li>Determine if there are additional meetings you should be attending on a regular basis.</li><ul> ",
+					"t_2": "Visit the SOTechT Site to become familiar with upcoming topics and review past topics. Discuss the topics and order in which your manager would like you to view the previously recorded topics."
+				}
+			},
+			{
+				"id": 6,
+				"name": "Acronyms",
+				"E_Time": "1.5",
+				"A_Time": "1.5",
+				"TrackerName": "Manager Review",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Meet with your manager to determine which acronyms are most frequently used in the Systems business  ",
+					"t_2": "Identify how to refer to JCI HVAC offerings ",
+					"t_3": "Search for acronyms using the Acronym Finder"
+				}
+			},
+			{
+				"id": 7,
+				"name": "Tools/Software Configuration",
+				"E_Time": "4",
+				"A_Time": "4",
+				"TrackerName": "Manager Review",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Use the LSS Software document to gain access to the software and systems needed for your position. ",
+					"t_2": "Review the list of tools provided in the Welcome to Your ST or EI Role page of your Onboarding Program. If you are missing any of the tools listed, contact your manager or the BSOS."
+				}
+			},
+			{
+				"id": 8,
+				"name": "Job Site Visit",
+				"E_Time": "5",
+				"A_Time": "5",
+				"TrackerName": "Manager Review",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Meet with your Manager to identify a project that you can visit now, and again in 2 weeks. Adhere to the criteria provided on the Onboarding Page.",
+					"t_2": "Locate and review the job details for the selected project.",
+					"t_3": "Schedule and complete the site visit.",
+					"t_4": "Schedule a time to return to this site with the Project Manager in two weeks.",
+					"t_5": "Meet with your Manager to debrief what you observed during your site visit."
+				}
+			}
+		],
+
+		"assignStatus": [{
+				"t_1": 0,
+				"t_2": 0,
+				"t_3": 0,
+				"t_4": 0,
+				"t_5": 0,
+				"t_6": 0
+			},
+			{
+				"t_1": 0,
+				"t_2": 0
+			},
+			{
+				"t_1": 0,
+				"t_2": 0,
+				"t_3": 1
+			},
+			{
+				"t_1": 1,
+				"t_2": 1,
+				"t_3": 1
+			},
+			{
+				"t_1": 0,
+				"t_2": 1
+			},
+			{
+				"t_1": 1,
+				"t_2": 0,
+				"t_3": 1
+			},
+			{
+				"t_1": 1,
+				"t_2": 1
+			},
+			{
+				"t_1": 1,
+				"t_2": 0,
+				"t_3": 0,
+				"t_4": 1,
+				"t_5": 1
+			}
+		]
+	},
+	"week_2": {
+		"Assignment": [{
+				"id": 1,
+				"name": "Project Folder Manager (PFM)",
+				"E_Time": "1.5",
+				"A_Time": "1.5",
+				"TrackerName": "Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "AIM Tools for Systems: Project Folder Manager PFM (C-8063-EN)"
+				}
+			},
+			{
+				"id": 2,
+				"name": "AIM Tools",
+				"E_Time": "12",
+				"A_Time": "12",
+				"TrackerName": "Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "AIM Tools for Systems: Presto (C-8064-EN)",
+					"t_2": "Access and view the Presto video.",
+					"t_3": "AIM Tools for Systems: Standards Toolkit course (C-8065-EN)",
+					"t_4": "AIM Tools for Systems: Store (C-8067-EN)",
+					"t_5": "Meet with your manager to demonstrate how to:<ul><li>Set up a project using AIM Tools. (If a project is not available from your pipeline, then ask your manager provide one.)</li><li>Build an estimate (provided by your manager) using Presto. </li><li>Use the Standards Toolkit to package submittals for a given opportunity in AIM.</li></ul>"
+				}
+			},
+			{
+				"id": 3,
+				"name": "Project Delivery Process Overview",
+				"E_Time": "1.5",
+				"A_Time": "1.5",
+				"TrackerName": "Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Projects Delivery Process Overview (C-8277-EN)",
+					"t_2": "Meet with you manager to discuss:<ul><li>Where in the process does your branch experience the greatest slippage? </li><li>Which parts of the process are you directly responsible for? </li><li>Where are the resources in the branch that can help you? </li><li>Acquire contact information and locations (bookmarks, etc) for these resources.</li></ul> "
+				}
+			},
+			{
+				"id": 4,
+				"name": "HVAC Basics",
+				"E_Time": "5.5",
+				"A_Time": "5.5",
+				"TrackerName": "Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "HVAC Overview (C-6803-EN)",
+					"t_2": "Access and explore the HVAC Products section of the Products & Services Portal page.",
+					"t_3": "Psychrometrics course (C-6802-EN)",
+					"t_4": "Engineering – HVAC System (C-622-EN) - Optional",
+					"t_5": "HVAC Operation and Troubleshooting (C-648-EN) – Optional"
+				}
+			},
+			{
+				"id": 5,
+				"name": "Job Site Visit",
+				"E_Time": "5",
+				"A_Time": "5",
+				"TrackerName": "Manager Review",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Meet with your Manager to identify a project that you can visit, that meets the criteria defined on the associated Onboarding page. ",
+					"t_2": "Locate and review the job details for the selected project,",
+					"t_3": "Schedule and complete the site visit",
+					"t_4": "Meet with your Manager to debrief what you observed during your site visit."
+				}
+			}
+		],
+
+		"assignStatus": [{
+				"t_1": 1
+			},
+			{
+				"t_1": 0,
+				"t_2": 0,
+				"t_3": 0,
+				"t_4": 1,
+				"t_5": 1
+			},
+			{
+				"t_1": 0,
+				"t_2": 1
+
+			},
+			{
+				"t_1": 0,
+				"t_2": 1,
+				"t_3": 1,
+				"t_4": 1,
+				"t_5": 1
+			},
+			{
+				"t_1": 0,
+				"t_2": 0,
+				"t_3": 1,
+				"t_4": 1
+			}
+		]
+	},
+	"week_3": {
+		"Assignment": [{
+				"id": 1,
+				"name": "Customer Communications",
+				"E_Time": "5",
+				"A_Time": "5",
+				"TrackerName": "Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Communications with the Customer: A Systems Course (C-8280-EN)"
+				}
+			},
+			{
+				"id": 2,
+				"name": "Written Communication",
+				"E_Time": "2",
+				"A_Time": "2",
+				"TrackerName": "Manager Review & Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Read Writing Effective Emails: Making sure your messages get read and acted upon",
+					"t_2": "Read Writing Skills: Getting Your Written Message Across Clearly ",
+					"t_3": "Read Writing Tips <ul><li>Send an email message to your manager describing three processes you learned in this Onboarding Program that will help you manage a project better. Your email should describe the process at a high level and identify how the process helps a project succeed (and the business).</li></ul>",
+					"t_4": "Review the Johnson Controls Online Brand Center guidelines, following the directions provided on the Brand Center worksheet. ",
+					"t_5": "Meet with your manager to:<ul><li>Receive feedback on your email message. </li><li>Review your completed Brand Center worksheet.</li></ul> "
+				}
+			},
+			{
+				"id": 3,
+				"name": "Job Site Visit",
+				"E_Time": "5",
+				"A_Time": "5",
+				"TrackerName": "Manager Review",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Review the job details for the project you visited during Week 2 of your Onboarding Program.",
+					"t_2": "Confirm the scheduled time for your site visit. ",
+					"t_3": "Complete the site visit, focusing on the items listed on the Onboarding page.",
+					"t_4": "Meet with your Manager to debrief what you observed during your site visit."
+				}
+			},
+			{
+				"id": 4,
+				"name": "Factory Packaged Controls (FPC)",
+				"E_Time": "2",
+				"A_Time": "2",
+				"TrackerName": "Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Factory Packaged Controls SOTechT session (C-7086-06Q-EN)"
+				}
+			},
+			{
+				"id": 5,
+				"name": "Sarbanes-Oxley Overview",
+				"E_Time": "2",
+				"A_Time": "2",
+				"TrackerName": "Manager Review & Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Sarbanes-Oxley (SOX) Overview for Systems (C-8275-EN).",
+					"t_2": "Read Sarbanes Oxley Act overview, which focuses on the role of the Branch Systems Operations Specialist. Think about what your role each for each topic."
+				}
+			},
+			{
+				"id": 6,
+				"name": "Documentation Standards",
+				"E_Time": "5",
+				"A_Time": "5",
+				"TrackerName": "Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Systems Documentation Tasks (C-8041-EN) "
+				}
+			},
+			{
+				"id": 7,
+				"name": "Teaming with & Training your Subcontractor",
+				"E_Time": "1.5",
+				"A_Time": "1.5",
+				"TrackerName": "Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Teaming with and Training Subcontractors (C-8282-04-EN)."
+				}
+			},
+			{
+				"id": 8,
+				"name": "Managing Your Subcontractors",
+				"E_Time": "1.5",
+				"A_Time": "1.5",
+				"TrackerName": "Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Managing Subcontractors (C-8282-05-EN)."
+				}
+			},
+			{
+				"id": 9,
+				"name": "Evaluating Your Subcontractors (OPTIONAL)",
+				"E_Time": "1.25",
+				"A_Time": "1.25",
+				"TrackerName": "Manager Review",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Meet with your Manager to discuss your responsibilities related to evaluating subcontractors."
+				}
+			},
+			{
+				"id": 10,
+				"name": "Job Site Inspection and Validation",
+				"E_Time": "1.5",
+				"A_Time": "1.5",
+				"TrackerName": "Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Job Site Inspection and Validation (C-8282-07-EN)."
+				}
+			},
+			{
+				"id": 11,
+				"name": "Customer Virtual Job Site Visit ",
+				"E_Time": "2",
+				"A_Time": "2",
+				"TrackerName": "Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Customer Facility Virtual Tour (C-8375-EN)",
+					"t_2": "Self-Performing Electrical Installations (C-8077-EN) – Optional"
+				}
+			}
+		],
+
+		"assignStatus": [{
+				"t_1": 1
+			},
+			{
+				"t_1": 1,
+				"t_2": 1,
+				"t_3": 0,
+				"t_4": 0,
+				"t_5": 1
+			},
+			{
+				"t_1": 0,
+				"t_2": 1,
+				"t_3": 0,
+				"t_4": 1
+			},
+			{
+				"t_1": 1
+			},
+			{
+				"t_1": 1,
+				"t_2": 1
+			},
+			{
+				"t_1": 0
+			},
+			{
+				"t_1": 1
+			},
+			{
+				"t_1": 1
+			},
+			{
+				"t_1": 0
+			},
+			{
+				"t_1": 1
+			},
+			{
+				"t_1": 1,
+				"t_2": 1
+			}
+		]
+	},
+	"week_4": {
+		"Assignment": [{
+				"id": 1,
+				"name": "Managing Change Orders (Optional)",
+				"E_Time": "7",
+				"A_Time": "7",
+				"TrackerName": "Manager Review & Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Project Financials: Managing Change Orders(C-8058-EN)",
+					"t_2": "Booking Change Orders in CBS (C-8242-EN)",
+					"t_3": "Meet with your Manager to discuss questions in the Managing Change Orders worksheet."
+				}
+			},
+			{
+				"id": 2,
+				"name": "Network Commissioning  (Optional)",
+				"E_Time": "3",
+				"A_Time": "3",
+				"TrackerName": "Manager Review & Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Network Commissioning (C-8278-EN)",
+					"t_2": "Meet with your manager to gather details regarding the electrical subcontractors frequently hired your branch, focusing on:<ul><li>Quality of communication with Johnson Controls.</li><li>Quality of installation work performed in the past.</li><li>Key strengths & weaknesses, including techniques to minimize their weaknesses.</li></ul> "
+				}
+			},
+			{
+				"id": 3,
+				"name": "Testing & Balancing",
+				"E_Time": "2",
+				"A_Time": "2",
+				"TrackerName": "Manager Review & Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Testing & Balancing (C-8279-EN)",
+					"t_2": "Meet with your manager to discuss the Air Balancing Scenarios. Use this discussion to determine the type of relationship your branch typically has with the air balance contractor."
+				}
+			},
+			{
+				"id": 4,
+				"name": "Communications",
+				"E_Time": "1",
+				"A_Time": "1",
+				"TrackerName": "Manager Review & Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "On-Site Communications for a Systems Project (C-8281-EN)",
+					"t_2": "Meet with your manager to:<ul><li>Identify how to obtain copies of the Johnson Controls LSS Log Book to keep your project documentation as per our company guidelines.</li><li>Learn if your manager wants a copy of all progress reports. </li><li>Request that he/she review your first several progress reports. </li></ul>"
+				}
+			},
+			{
+				"id": 5,
+				"name": "Systems Job Site Safety",
+				"E_Time": "1.5",
+				"A_Time": "1.5",
+				"TrackerName": "Manager Review & Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Systems Jobsite Safety (C-8373-EN) ",
+					"t_2": "Enter the following safety contact information into your cell phone <ul><li>Branch Manager </li><li>Regional Safety Manager</li><li>Injury Reporting Hotline 1-866-343-8073 </li><li>Crisis Management Hotline 1-866-343-8079 </li></ul> ",
+					"t_3": "Meet with your Branch Manager or Supervisor regarding: <ul><li>The recordable and lost time incidents in your branch. </li><li>What does your branch do well regarding safety? </li><li>What safety actions could be improved?</li></ul> "
+				}
+			},
+			{
+				"id": 6,
+				"name": "Customer Training & Acceptance (Optional)",
+				"E_Time": "1",
+				"A_Time": "1",
+				"TrackerName": "Manager Review & Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here",
+				"subtask": {
+					"t_1": "Customer Acceptance Activities (C-8034-EN).",
+					"t_2": "Complete the Customer Training Worksheet. When done, review this worksheet with your manager."
+				}
+			}
+		],
+
+		"assignStatus": [{
+				"t_1": 1,
+				"t_2": 1,
+				"t_3": 1
+			},
+			{
+				"t_1": 1,
+				"t_2": 1
+			},
+			{
+				"t_1": 0,
+				"t_2": 1
+			},
+			{
+				"t_1": 1,
+				"t_2": 1
+			},
+			{
+				"t_1": 0,
+				"t_2": 0,
+				"t_3": 1
+			},
+			{
+				"t_1": 0,
+				"t_2": 0
+			}
+		]
+	},
+	"Next Steps": {
+		"Assignment": [{
+				"id": 1,
+				"name": "Systems Installation and Commissioning Fundamentals",
+				"E_Time": "5",
+				"A_Time": "5",
+				"TrackerName": "Learning Network",
+				"date": "10-2-05",
+				"Desc": "description here"
+			},
+			{
+				"id": 2,
+				"name": "Development Plan Review",
+				"E_Time": "2",
+				"A_Time": "2",
+				"TrackerName": "Manager Review",
+				"date": "10-2-05",
+				"Desc": "description here"
+			}
+		],
+
+		"assignStatus": [{
+			"t_1": 1,
+			"t_2": 0
+		}]
+	}
+}

@@ -1,0 +1,42 @@
+<html>
+<head>
+      <!-- Vendor: Bootstrap Stylesheets -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Our Website CSS Styles -->
+
+ </head>
+<body>
+
+<div ng-controller="ManagerCtrl"> 
+<br />  
+  <label>Select Subtask for Rejection <span style="color:red;">*</span></label>
+    <table class="table table-striped table-bordered">
+            <thead>
+              <tr>
+                <th><!--<input type="checkbox" ng-model="selectAll" ng-click="checkAll()" class="form-check-input" id="selectAllSubTask" name="selectAllSubTask" />--></th>
+                <th style="width: 59px;">Sr No.</th>
+                <th>Subtask</th>
+                <th>Certificate</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="records in subTaskCertList">
+                <td align="center"><input type="checkbox" class="form-check-input" id="chkSubTask" name="chkSubTask" ng-model="subTask" ng-checked="records.select" ng-click="individualCheckList(records.SubTaskID)"/></td>
+                <td align="center">{{ $index+1 }}</td>
+                <td align="left">{{ records.SubTaskName }}</td>
+                <td align="center">{{ records.Certificate }}</td>
+              <tr>
+              <tr ng-if="subTaskCertList.length == 0">
+                  <td align="center" colspan="4"> No Data Available </td>
+              </tr>
+            </tbody>
+      </table>
+      <label>Reason for Rejection <span style="color:red;">*</span></label>
+      <textarea id="approvalComments"  name="approvalComments" cols="76" rows="5" placeholder="Comment Here..."></textarea>
+
+</div>
+
+</body>
+</html>
